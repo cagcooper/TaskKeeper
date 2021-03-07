@@ -30,4 +30,16 @@ Saturday
 
 Sunday
 (morning)
-- review exercise and begin design on paper
+- review exercise and begin design on paper - not knowing/understanding the framework makes it difficult to determine what parts I will have to write and what may already exist in a library.
+
+- started a basic app tutorial, but have been struggling all day with the Laravel environment requirements
+- I have XAMPP already installed with mySQL and PHP for my class. Today I am having issues with the 'php artisan migrate' command throwing PDO errors.
+- I have been all over StackOverflow and Google looking for solution.
+   * I have verified that PHP and mySQL are installed and working.
+   * I have run "mysql -u root" and then "use tutorial_db" successfully (tutorial_db is the database I created for the tutorial)
+   * I have verified settings in the configuration files (php.ini, .env, etc.), Windows PATHs, enabled the 'dll' extension, but I cannot get past this, so I'm stopping for the day. (I have been at it since 8:00 this morning.)
+ 
+ (3:30 PM)
+   My impediment today was my development environment setup hampering my ability to learn more about Laravel through the "create an application" tutorial.
+    
+
