@@ -42,4 +42,15 @@ Sunday
  (3:30 PM)
    My impediment today was my development environment setup hampering my ability to learn more about Laravel through the "create an application" tutorial.
     
+(evening)
+- looked at a new installation on my personal laptop, but the set of steps had me installing docker and a Linux distribution (which was not found when I attempted to set the Windows Subsystem).
 
+Monday
+(morning)
+- went back to original Laravel installation and was able to get past the PDO error (a capitalization of the table name bit me), but now I'm encountering database table errors:
+   * Base table or view already exists: 1050 Table 'users' already exists
+     - once I fixed the 'users' table (stack overflow solution) I received a "Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes" message
+       * fixed this with a solution from the Laravel site to set a long char length
+     - the next error was another "Base table" error for 'links', so I see a cascading affect and am not going to "piece-meal" a fix.
+
+Considering creating a fresh project, but need to get to work so I will look at this later.
